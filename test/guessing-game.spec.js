@@ -7,8 +7,8 @@ describe('#guess', () => {
         const number = 409;
         const game = new GuessingGame();
         game.setRange(0, 4048)
-
         let result = game.guess();
+        console.log(result)
         game.lower();
         result = game.guess();
         game.lower();
